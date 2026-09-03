@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.PostExcelDataTests">
+        <methods>
+          <include name="setup"/>
+          <include name="createPostFromExcel" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- tests.PostExcelDataTests -->
+      <class name="tests.AdvancedApiTests">
+        <methods>
+          <include name="setup"/>
+          <include name="testWithCustomHeaders"/>
+          <include name="testWithAuthentication"/>
+          <include name="testWithQueryAndPathParameters"/>
+          <include name="apiChaining_GetUserThenCreatePost"/>
+        </methods>
+      </class> <!-- tests.AdvancedApiTests -->
+      <class name="tests.PostRequestTests">
+        <methods>
+          <include name="setup"/>
+          <include name="createPostWithHardcodedData"/>
+          <include name="createPostWithDataProvider" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- tests.PostRequestTests -->
+      <class name="tests.DeleteRequestTests">
+        <methods>
+          <include name="setup"/>
+          <include name="deletePost"/>
+        </methods>
+      </class> <!-- tests.DeleteRequestTests -->
+      <class name="tests.GetUserTests">
+        <methods>
+          <include name="setup"/>
+          <include name="getAllUsers"/>
+          <include name="getSingleUser"/>
+        </methods>
+      </class> <!-- tests.GetUserTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

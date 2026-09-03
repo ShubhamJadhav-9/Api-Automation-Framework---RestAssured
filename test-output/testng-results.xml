@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-04T01:26:26 IST" name="RestAssuredAPISuite" finished-at="2026-09-04T01:26:47 IST" duration-ms="20601">
+    <groups>
+      <group name="regression">
+        <method signature="AdvancedApiTests.apiChaining_GetUserThenCreatePost()[pri:0, instance:tests.AdvancedApiTests@71cf1b07]" name="apiChaining_GetUserThenCreatePost" class="tests.AdvancedApiTests"/>
+        <method signature="AdvancedApiTests.testWithAuthentication()[pri:0, instance:tests.AdvancedApiTests@71cf1b07]" name="testWithAuthentication" class="tests.AdvancedApiTests"/>
+        <method signature="AdvancedApiTests.testWithCustomHeaders()[pri:0, instance:tests.AdvancedApiTests@71cf1b07]" name="testWithCustomHeaders" class="tests.AdvancedApiTests"/>
+        <method signature="AdvancedApiTests.testWithQueryAndPathParameters()[pri:0, instance:tests.AdvancedApiTests@71cf1b07]" name="testWithQueryAndPathParameters" class="tests.AdvancedApiTests"/>
+        <method signature="DeleteRequestTests.deletePost()[pri:0, instance:tests.DeleteRequestTests@1d131e1b]" name="deletePost" class="tests.DeleteRequestTests"/>
+        <method signature="GetUserTests.getAllUsers()[pri:0, instance:tests.GetUserTests@25a6944c]" name="getAllUsers" class="tests.GetUserTests"/>
+        <method signature="PostExcelDataTests.createPostFromExcel(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PostExcelDataTests@3e821657]" name="createPostFromExcel" class="tests.PostExcelDataTests"/>
+        <method signature="PostRequestTests.createPostWithDataProvider(java.lang.String,java.lang.String,int)[pri:0, instance:tests.PostRequestTests@2f17e30d]" name="createPostWithDataProvider" class="tests.PostRequestTests"/>
+        <method signature="PostRequestTests.createPostWithHardcodedData()[pri:0, instance:tests.PostRequestTests@2f17e30d]" name="createPostWithHardcodedData" class="tests.PostRequestTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AdvancedApiTests.testWithCustomHeaders()[pri:0, instance:tests.AdvancedApiTests@71cf1b07]" name="testWithCustomHeaders" class="tests.AdvancedApiTests"/>
+        <method signature="AdvancedApiTests.testWithQueryAndPathParameters()[pri:0, instance:tests.AdvancedApiTests@71cf1b07]" name="testWithQueryAndPathParameters" class="tests.AdvancedApiTests"/>
+        <method signature="DeleteRequestTests.deletePost()[pri:0, instance:tests.DeleteRequestTests@1d131e1b]" name="deletePost" class="tests.DeleteRequestTests"/>
+        <method signature="GetUserTests.getAllUsers()[pri:0, instance:tests.GetUserTests@25a6944c]" name="getAllUsers" class="tests.GetUserTests"/>
+        <method signature="GetUserTests.getSingleUser()[pri:0, instance:tests.GetUserTests@25a6944c]" name="getSingleUser" class="tests.GetUserTests"/>
+        <method signature="PostRequestTests.createPostWithHardcodedData()[pri:0, instance:tests.PostRequestTests@2f17e30d]" name="createPostWithHardcodedData" class="tests.PostRequestTests"/>
+      </group> <!-- smoke -->
+      <group name="dataDriven">
+        <method signature="PostExcelDataTests.createPostFromExcel(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PostExcelDataTests@3e821657]" name="createPostFromExcel" class="tests.PostExcelDataTests"/>
+      </group> <!-- dataDriven -->
+      <group name="chaining">
+        <method signature="AdvancedApiTests.apiChaining_GetUserThenCreatePost()[pri:0, instance:tests.AdvancedApiTests@71cf1b07]" name="apiChaining_GetUserThenCreatePost" class="tests.AdvancedApiTests"/>
+      </group> <!-- chaining -->
+    </groups>
+    <test started-at="2026-09-04T01:26:26 IST" name="AllTests" finished-at="2026-09-04T01:26:47 IST" duration-ms="20601">
+      <class name="tests.PostExcelDataTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PostExcelDataTests@3e821657]" started-at="2026-09-04T01:26:36 IST" name="setup" finished-at="2026-09-04T01:26:36 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createPostFromExcel(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PostExcelDataTests@3e821657]" started-at="2026-09-04T01:26:37 IST" name="createPostFromExcel" data-provider="excelData" finished-at="2026-09-04T01:26:38 IST" duration-ms="980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Excel Title 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is body from excel 1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostFromExcel -->
+        <test-method signature="createPostFromExcel(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PostExcelDataTests@3e821657]" started-at="2026-09-04T01:26:38 IST" name="createPostFromExcel" data-provider="excelData" finished-at="2026-09-04T01:26:39 IST" duration-ms="916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Excel Title 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is body from excel 2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostFromExcel -->
+        <test-method signature="createPostFromExcel(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.PostExcelDataTests@3e821657]" started-at="2026-09-04T01:26:39 IST" name="createPostFromExcel" data-provider="excelData" finished-at="2026-09-04T01:26:40 IST" duration-ms="1332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Excel Title 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is body from excel 3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostFromExcel -->
+      </class> <!-- tests.PostExcelDataTests -->
+      <class name="tests.AdvancedApiTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdvancedApiTests@71cf1b07]" started-at="2026-09-04T01:26:41 IST" name="setup" finished-at="2026-09-04T01:26:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="apiChaining_GetUserThenCreatePost()[pri:0, instance:tests.AdvancedApiTests@71cf1b07]" started-at="2026-09-04T01:26:41 IST" name="apiChaining_GetUserThenCreatePost" finished-at="2026-09-04T01:26:43 IST" duration-ms="1673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiChaining_GetUserThenCreatePost -->
+        <test-method signature="testWithAuthentication()[pri:0, instance:tests.AdvancedApiTests@71cf1b07]" started-at="2026-09-04T01:26:43 IST" name="testWithAuthentication" finished-at="2026-09-04T01:26:45 IST" duration-ms="1909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithAuthentication -->
+        <test-method signature="testWithCustomHeaders()[pri:0, instance:tests.AdvancedApiTests@71cf1b07]" started-at="2026-09-04T01:26:45 IST" name="testWithCustomHeaders" finished-at="2026-09-04T01:26:45 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithCustomHeaders -->
+        <test-method signature="testWithQueryAndPathParameters()[pri:0, instance:tests.AdvancedApiTests@71cf1b07]" started-at="2026-09-04T01:26:45 IST" name="testWithQueryAndPathParameters" finished-at="2026-09-04T01:26:47 IST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithQueryAndPathParameters -->
+      </class> <!-- tests.AdvancedApiTests -->
+      <class name="tests.PostRequestTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PostRequestTests@2f17e30d]" started-at="2026-09-04T01:26:32 IST" name="setup" finished-at="2026-09-04T01:26:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createPostWithDataProvider(java.lang.String,java.lang.String,int)[pri:0, instance:tests.PostRequestTests@2f17e30d]" started-at="2026-09-04T01:26:32 IST" name="createPostWithDataProvider" data-provider="postData" finished-at="2026-09-04T01:26:33 IST" duration-ms="1531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Title One]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Body content one]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostWithDataProvider -->
+        <test-method signature="createPostWithDataProvider(java.lang.String,java.lang.String,int)[pri:0, instance:tests.PostRequestTests@2f17e30d]" started-at="2026-09-04T01:26:33 IST" name="createPostWithDataProvider" data-provider="postData" finished-at="2026-09-04T01:26:34 IST" duration-ms="907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Title Two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Body content two]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostWithDataProvider -->
+        <test-method signature="createPostWithDataProvider(java.lang.String,java.lang.String,int)[pri:0, instance:tests.PostRequestTests@2f17e30d]" started-at="2026-09-04T01:26:34 IST" name="createPostWithDataProvider" data-provider="postData" finished-at="2026-09-04T01:26:35 IST" duration-ms="736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Title Three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Body content three]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostWithDataProvider -->
+        <test-method signature="createPostWithHardcodedData()[pri:0, instance:tests.PostRequestTests@2f17e30d]" started-at="2026-09-04T01:26:35 IST" name="createPostWithHardcodedData" finished-at="2026-09-04T01:26:36 IST" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostWithHardcodedData -->
+      </class> <!-- tests.PostRequestTests -->
+      <class name="tests.DeleteRequestTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DeleteRequestTests@1d131e1b]" started-at="2026-09-04T01:26:40 IST" name="setup" finished-at="2026-09-04T01:26:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deletePost()[pri:0, instance:tests.DeleteRequestTests@1d131e1b]" started-at="2026-09-04T01:26:40 IST" name="deletePost" finished-at="2026-09-04T01:26:41 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePost -->
+      </class> <!-- tests.DeleteRequestTests -->
+      <class name="tests.GetUserTests">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.GetUserTests@25a6944c]" started-at="2026-09-04T01:26:25 IST" name="beforeSuite" finished-at="2026-09-04T01:26:26 IST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.GetUserTests@25a6944c]" started-at="2026-09-04T01:26:27 IST" name="setup" finished-at="2026-09-04T01:26:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllUsers()[pri:0, instance:tests.GetUserTests@25a6944c]" started-at="2026-09-04T01:26:27 IST" name="getAllUsers" finished-at="2026-09-04T01:26:30 IST" duration-ms="3708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method signature="getSingleUser()[pri:0, instance:tests.GetUserTests@25a6944c]" started-at="2026-09-04T01:26:30 IST" name="getSingleUser" finished-at="2026-09-04T01:26:32 IST" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUser -->
+      </class> <!-- tests.GetUserTests -->
+    </test> <!-- AllTests -->
+  </suite> <!-- RestAssuredAPISuite -->
+</testng-results>

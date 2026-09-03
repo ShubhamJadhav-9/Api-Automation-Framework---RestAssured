@@ -1,0 +1,2665 @@
+2026-09-03 22:33:34 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-03 22:33:34 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-03 22:33:38 INFO  base.BaseTest - Captured User ID   : 1
+2026-09-03 22:33:38 INFO  base.BaseTest - Captured User Name : Leanne Graham
+2026-09-03 22:33:38 INFO  base.BaseTest - Captured Email     : Sincere@april.biz
+2026-09-03 22:33:39 INFO  base.BaseTest - Chained POST Status Code : 201
+2026-09-03 22:33:39 INFO  base.BaseTest - Chained POST Response    : {
+    "title": "Post created by Leanne Graham",
+    "body": "This post is created using chaining. Email: Sincere@april.biz",
+    "userId": 1,
+    "id": 101
+}
+2026-09-03 22:33:39 INFO  base.BaseTest - ===== API CHAINING TEST COMPLETED =====
+2026-09-03 22:33:39 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-03 22:33:40 INFO  base.BaseTest - Basic Auth Status Code : 200
+2026-09-03 22:33:41 INFO  base.BaseTest - Bearer Token Status Code : 200
+2026-09-03 22:33:41 INFO  base.BaseTest - Preemptive Auth Status Code : 200
+2026-09-03 22:33:41 INFO  base.BaseTest - ===== AUTHENTICATION TEST COMPLETED =====
+2026-09-03 22:33:41 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-03 22:33:42 INFO  base.BaseTest - Headers Test Status Code : 200
+2026-09-03 22:33:42 INFO  base.BaseTest - Response Headers         : Date=Thu, 03 Sep 2026 17:03:42 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-credentials=true
+Cache-Control=max-age=43200
+etag=W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+expires=-1
+nel={"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma=no-cache
+report-to={"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1788174166"}],"max_age":3600}
+reporting-endpoints=heroku-nel="https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1788174166"
+Server=cloudflare
+vary=Origin, Accept-Encoding
+via=2.0 heroku-router
+x-content-type-options=nosniff
+x-powered-by=Express
+x-ratelimit-limit=1000
+x-ratelimit-remaining=999
+x-ratelimit-reset=1788174220
+Age=21509
+cf-cache-status=HIT
+Content-Encoding=gzip
+CF-RAY=a35654543cbdfdfe-SIN
+alt-svc=h3=":443"; ma=86400
+2026-09-03 22:33:42 INFO  base.BaseTest - ===== HEADERS TEST COMPLETED =====
+2026-09-03 22:33:42 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-03 22:33:43 INFO  base.BaseTest - Path Param Status Code : 200
+2026-09-03 22:33:43 INFO  base.BaseTest - Path Param Response    : {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+        }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+    }
+}
+2026-09-03 22:33:44 INFO  base.BaseTest - Query Param Status Code : 200
+2026-09-03 22:33:44 INFO  base.BaseTest - Query Param Response    : [
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "id labore ex et quam laborum",
+        "email": "Eliseo@gardner.biz",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    },
+    {
+        "postId": 1,
+        "id": 2,
+        "name": "quo vero reiciendis velit similique earum",
+        "email": "Jayne_Kuhic@sydney.com",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+    },
+    {
+        "postId": 1,
+        "id": 3,
+        "name": "odio adipisci rerum aut animi",
+        "email": "Nikita@garfield.biz",
+        "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+    }
+]
+2026-09-03 22:33:44 INFO  base.BaseTest - ===== PARAMETERS TEST COMPLETED =====
+2026-09-03 22:36:22 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-03 22:36:22 INFO  base.BaseTest - Starting DELETE request test
+2026-09-03 22:36:25 INFO  base.BaseTest - Status Code: 200
+2026-09-03 22:36:25 INFO  base.BaseTest - Response body: {
+    
+}
+2026-09-03 22:36:40 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-03 22:36:40 INFO  base.BaseTest - Starting GET all users test
+2026-09-03 22:36:43 INFO  base.BaseTest - Response status code: 200
+2026-09-03 22:36:43 INFO  base.BaseTest - Response body: [
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+            }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+                "lat": "29.4572",
+                "lng": "-164.2990"
+            }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+                "lat": "-31.8129",
+                "lng": "62.5342"
+            }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+                "lat": "-71.4197",
+                "lng": "71.7478"
+            }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+                "lat": "24.8918",
+                "lng": "21.8984"
+            }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+                "lat": "-14.3990",
+                "lng": "-120.7677"
+            }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+                "lat": "-38.2386",
+                "lng": "57.2232"
+            }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+        }
+    }
+]
+2026-09-03 22:36:43 INFO  base.BaseTest - Starting GET single user test
+2026-09-03 22:36:44 INFO  base.BaseTest - Status Code: 200
+2026-09-03 22:36:45 INFO  base.BaseTest - User name: Leanne Graham
+2026-09-03 22:37:41 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-03 22:37:51 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-03 22:43:43 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-03 22:43:45 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-03 22:43:47 INFO  base.BaseTest - Status: 201
+2026-09-03 22:43:48 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-03 22:43:49 INFO  base.BaseTest - Status: 201
+2026-09-03 22:43:49 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-03 22:43:49 INFO  base.BaseTest - Status: 201
+2026-09-03 22:44:04 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-03 22:44:04 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-03 22:44:08 INFO  base.BaseTest - Status Code: 201
+2026-09-03 22:44:08 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-03 22:44:10 INFO  base.BaseTest - Status Code: 201
+2026-09-03 22:44:10 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-03 22:44:10 INFO  base.BaseTest - Status Code: 201
+2026-09-03 22:44:11 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-03 22:44:11 INFO  base.BaseTest - Status Code: 201
+2026-09-03 22:44:11 INFO  base.BaseTest - Response: {
+    "title": "My First API Test",
+    "body": "This is a beginner friendly RestAssured test",
+    "userId": 1,
+    "id": 101
+}
+2026-09-03 22:44:42 INFO  base.BaseTest - Starting GET all users test
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting GET all users test
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting GET single user test
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting GET single user test
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting DELETE request test
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting DELETE request test
+2026-09-03 22:44:43 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-03 22:44:43 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-03 22:44:43 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-03 22:44:43 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting GET all users test
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting GET all users test
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-03 22:44:43 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-03 22:44:44 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-03 22:44:44 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-03 22:44:44 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-03 22:44:44 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-03 22:44:44 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-03 22:44:44 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-03 22:44:44 INFO  base.BaseTest - Starting DELETE request test
+2026-09-03 22:44:44 INFO  base.BaseTest - Starting DELETE request test
+2026-09-03 22:44:44 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-03 22:44:44 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-03 22:44:44 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-03 22:44:44 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-03 22:44:44 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-03 22:44:44 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-03 22:44:44 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-03 22:44:44 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-03 22:46:53 INFO  base.BaseTest - Starting GET all users test
+2026-09-03 22:46:54 INFO  base.BaseTest - Starting GET all users test
+2026-09-03 22:46:54 INFO  base.BaseTest - Starting GET single user test
+2026-09-03 22:46:54 INFO  base.BaseTest - Starting GET single user test
+2026-09-03 22:46:54 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting DELETE request test
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting DELETE request test
+2026-09-03 22:46:55 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-03 22:46:55 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-03 22:46:55 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-03 22:46:55 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting GET all users test
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting GET all users test
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-03 22:46:55 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-03 22:46:56 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-03 22:46:56 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-03 22:46:56 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-03 22:46:56 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-03 22:46:56 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-03 22:46:56 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-03 22:46:56 INFO  base.BaseTest - Starting DELETE request test
+2026-09-03 22:46:56 INFO  base.BaseTest - Starting DELETE request test
+2026-09-03 22:46:56 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-03 22:46:56 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-03 22:46:56 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-03 22:46:56 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-03 22:46:56 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-03 22:46:56 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-03 22:46:56 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-03 22:46:56 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-03 22:54:15 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-03 22:54:16 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-03 22:54:21 INFO  base.BaseTest - Status: 201
+2026-09-03 22:54:21 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-03 22:55:33 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-03 22:55:34 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-03 22:55:40 INFO  base.BaseTest - Status: 201
+2026-09-03 22:55:41 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-03 22:55:42 INFO  base.BaseTest - Status: 201
+2026-09-03 22:55:42 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-03 22:55:45 INFO  base.BaseTest - Status: 201
+2026-09-03 22:55:45 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-03 22:55:45 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-03 22:55:47 INFO  base.BaseTest - Captured User ID   : 1
+2026-09-03 22:55:47 INFO  base.BaseTest - Captured User Name : Leanne Graham
+2026-09-03 22:55:47 INFO  base.BaseTest - Captured Email     : Sincere@april.biz
+2026-09-03 22:55:48 INFO  base.BaseTest - Chained POST Status Code : 201
+2026-09-03 22:55:48 INFO  base.BaseTest - Chained POST Response    : {
+    "title": "Post created by Leanne Graham",
+    "body": "This post is created using chaining. Email: Sincere@april.biz",
+    "userId": 1,
+    "id": 101
+}
+2026-09-03 22:55:48 INFO  base.BaseTest - ===== API CHAINING TEST COMPLETED =====
+2026-09-03 22:55:48 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-03 22:55:51 INFO  base.BaseTest - Basic Auth Status Code : 200
+2026-09-04 00:23:18 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 00:23:18 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 00:23:18 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-04 00:23:18 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting GET single user test
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting GET single user test
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 00:23:18 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 00:23:19 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-04 00:23:19 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 00:23:19 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 00:23:19 INFO  base.BaseTest - ======= Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-04 00:23:19 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 00:23:19 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 00:23:19 INFO  base.BaseTest - Starting GET single user test
+2026-09-04 00:23:19 INFO  base.BaseTest - Starting GET single user test
+2026-09-04 00:31:22 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 00:31:24 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 00:31:24 INFO  base.BaseTest - Starting GET single user test
+2026-09-04 00:31:24 INFO  base.BaseTest - Starting GET single user test
+2026-09-04 00:31:24 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 00:31:24 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 00:31:24 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 00:31:24 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 00:31:24 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 00:31:24 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 00:31:24 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 00:31:24 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 00:31:25 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 00:31:25 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 00:31:25 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-04 00:31:25 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-04 00:31:25 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-04 00:31:25 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-04 00:31:25 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-04 00:31:25 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-04 00:31:25 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 00:31:25 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 00:31:26 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-04 00:31:26 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-04 00:31:26 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-04 00:31:26 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-04 00:31:26 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-04 00:31:26 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-04 00:31:26 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 00:31:26 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 00:31:26 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-04 00:31:26 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-04 00:31:27 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-04 00:31:27 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-04 00:31:27 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 00:31:27 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 00:31:27 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 00:31:27 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 00:55:12 INFO  base.BaseTest - ======= [@BeforeSuite] Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-04 00:55:12 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:55:12 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 00:55:15 INFO  base.BaseTest - Response status code: 200
+2026-09-04 00:55:15 INFO  base.BaseTest - Response body: [
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+            }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+                "lat": "29.4572",
+                "lng": "-164.2990"
+            }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+                "lat": "-31.8129",
+                "lng": "62.5342"
+            }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+                "lat": "-71.4197",
+                "lng": "71.7478"
+            }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+                "lat": "24.8918",
+                "lng": "21.8984"
+            }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+                "lat": "-14.3990",
+                "lng": "-120.7677"
+            }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+                "lat": "-38.2386",
+                "lng": "57.2232"
+            }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+        }
+    }
+]
+2026-09-04 00:55:15 INFO  base.BaseTest - Starting GET single user test
+2026-09-04 00:55:16 INFO  base.BaseTest - Status Code: 200
+2026-09-04 00:55:17 INFO  base.BaseTest - User name: Leanne Graham
+2026-09-04 00:55:17 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:55:17 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 00:55:18 INFO  base.BaseTest - Status Code: 201
+2026-09-04 00:55:18 INFO  base.BaseTest - Response: {
+    "title": "My First API Test",
+    "body": "This is a beginner friendly RestAssured test",
+    "userId": 1,
+    "id": 101
+}
+2026-09-04 00:55:18 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:55:18 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 00:55:19 INFO  base.BaseTest - Status Code: 200
+2026-09-04 00:55:19 INFO  base.BaseTest - Response body: {
+    
+}
+2026-09-04 00:55:19 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:55:19 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 00:55:20 INFO  base.BaseTest - Headers Test Status Code : 200
+2026-09-04 00:55:20 INFO  base.BaseTest - Response Headers         : Date=Thu, 03 Sep 2026 19:25:20 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-credentials=true
+Cache-Control=max-age=43200
+etag=W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+expires=-1
+nel={"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma=no-cache
+report-to={"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1788174166"}],"max_age":3600}
+reporting-endpoints=heroku-nel="https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1788174166"
+Server=cloudflare
+vary=Origin, Accept-Encoding
+via=2.0 heroku-router
+x-content-type-options=nosniff
+x-powered-by=Express
+x-ratelimit-limit=1000
+x-ratelimit-remaining=999
+x-ratelimit-reset=1788174220
+Age=1203
+cf-cache-status=HIT
+Content-Encoding=gzip
+CF-RAY=a35723cbe93cde76-SIN
+alt-svc=h3=":443"; ma=86400
+2026-09-04 00:55:20 INFO  base.BaseTest - ===== HEADERS TEST COMPLETED =====
+2026-09-04 00:55:20 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 00:55:20 INFO  base.BaseTest - Path Param Status Code : 200
+2026-09-04 00:55:20 INFO  base.BaseTest - Path Param Response    : {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+        }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+    }
+}
+2026-09-04 00:55:21 INFO  base.BaseTest - Query Param Status Code : 200
+2026-09-04 00:55:21 INFO  base.BaseTest - Query Param Response    : [
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "id labore ex et quam laborum",
+        "email": "Eliseo@gardner.biz",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    },
+    {
+        "postId": 1,
+        "id": 2,
+        "name": "quo vero reiciendis velit similique earum",
+        "email": "Jayne_Kuhic@sydney.com",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+    },
+    {
+        "postId": 1,
+        "id": 3,
+        "name": "odio adipisci rerum aut animi",
+        "email": "Nikita@garfield.biz",
+        "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+    }
+]
+2026-09-04 00:55:21 INFO  base.BaseTest - ===== PARAMETERS TEST COMPLETED =====
+2026-09-04 00:55:21 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:55:21 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 00:55:22 INFO  base.BaseTest - Response status code: 200
+2026-09-04 00:55:22 INFO  base.BaseTest - Response body: [
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+            }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+                "lat": "29.4572",
+                "lng": "-164.2990"
+            }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+                "lat": "-31.8129",
+                "lng": "62.5342"
+            }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+                "lat": "-71.4197",
+                "lng": "71.7478"
+            }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+                "lat": "24.8918",
+                "lng": "21.8984"
+            }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+                "lat": "-14.3990",
+                "lng": "-120.7677"
+            }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+                "lat": "-38.2386",
+                "lng": "57.2232"
+            }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+        }
+    }
+]
+2026-09-04 00:55:22 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:55:22 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-04 00:55:23 INFO  base.BaseTest - Status Code: 201
+2026-09-04 00:55:23 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-04 00:55:24 INFO  base.BaseTest - Status Code: 201
+2026-09-04 00:55:24 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-04 00:55:24 INFO  base.BaseTest - Status Code: 201
+2026-09-04 00:55:25 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 00:55:25 INFO  base.BaseTest - Status Code: 201
+2026-09-04 00:55:25 INFO  base.BaseTest - Response: {
+    "title": "My First API Test",
+    "body": "This is a beginner friendly RestAssured test",
+    "userId": 1,
+    "id": 101
+}
+2026-09-04 00:55:25 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:55:26 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-04 00:55:27 INFO  base.BaseTest - Status: 201
+2026-09-04 00:55:27 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-04 00:55:28 INFO  base.BaseTest - Status: 201
+2026-09-04 00:55:28 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-04 00:55:29 INFO  base.BaseTest - Status: 201
+2026-09-04 00:55:29 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:55:29 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 00:55:30 INFO  base.BaseTest - Status Code: 200
+2026-09-04 00:55:30 INFO  base.BaseTest - Response body: {
+    
+}
+2026-09-04 00:55:30 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:55:30 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-04 00:55:30 INFO  base.BaseTest - Captured User ID   : 1
+2026-09-04 00:55:30 INFO  base.BaseTest - Captured User Name : Leanne Graham
+2026-09-04 00:55:30 INFO  base.BaseTest - Captured Email     : Sincere@april.biz
+2026-09-04 00:55:31 INFO  base.BaseTest - Chained POST Status Code : 201
+2026-09-04 00:55:31 INFO  base.BaseTest - Chained POST Response    : {
+    "title": "Post created by Leanne Graham",
+    "body": "This post is created using chaining. Email: Sincere@april.biz",
+    "userId": 1,
+    "id": 101
+}
+2026-09-04 00:55:31 INFO  base.BaseTest - ===== API CHAINING TEST COMPLETED =====
+2026-09-04 00:55:31 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-04 00:55:32 INFO  base.BaseTest - Basic Auth Status Code : 200
+2026-09-04 00:55:32 INFO  base.BaseTest - Bearer Token Status Code : 200
+2026-09-04 00:55:33 INFO  base.BaseTest - Preemptive Auth Status Code : 200
+2026-09-04 00:55:33 INFO  base.BaseTest - ===== AUTHENTICATION TEST COMPLETED =====
+2026-09-04 00:55:33 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 00:55:33 INFO  base.BaseTest - Headers Test Status Code : 200
+2026-09-04 00:55:33 INFO  base.BaseTest - Response Headers         : Date=Thu, 03 Sep 2026 19:25:34 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-credentials=true
+Cache-Control=max-age=43200
+etag=W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+expires=-1
+nel={"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma=no-cache
+report-to={"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1788174166"}],"max_age":3600}
+reporting-endpoints=heroku-nel="https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1788174166"
+Server=cloudflare
+vary=Origin, Accept-Encoding
+via=2.0 heroku-router
+x-content-type-options=nosniff
+x-powered-by=Express
+x-ratelimit-limit=1000
+x-ratelimit-remaining=999
+x-ratelimit-reset=1788174220
+Age=1217
+cf-cache-status=HIT
+Content-Encoding=gzip
+CF-RAY=a35724202d6af900-SIN
+alt-svc=h3=":443"; ma=86400
+2026-09-04 00:55:33 INFO  base.BaseTest - ===== HEADERS TEST COMPLETED =====
+2026-09-04 00:55:33 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 00:55:34 INFO  base.BaseTest - Path Param Status Code : 200
+2026-09-04 00:55:34 INFO  base.BaseTest - Path Param Response    : {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+        }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+    }
+}
+2026-09-04 00:55:34 INFO  base.BaseTest - Query Param Status Code : 200
+2026-09-04 00:55:34 INFO  base.BaseTest - Query Param Response    : [
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "id labore ex et quam laborum",
+        "email": "Eliseo@gardner.biz",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    },
+    {
+        "postId": 1,
+        "id": 2,
+        "name": "quo vero reiciendis velit similique earum",
+        "email": "Jayne_Kuhic@sydney.com",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+    },
+    {
+        "postId": 1,
+        "id": 3,
+        "name": "odio adipisci rerum aut animi",
+        "email": "Nikita@garfield.biz",
+        "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+    }
+]
+2026-09-04 00:55:34 INFO  base.BaseTest - ===== PARAMETERS TEST COMPLETED =====
+2026-09-04 00:56:59 INFO  base.BaseTest - ======= [@BeforeSuite] Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-04 00:57:00 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:57:00 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 00:57:03 INFO  base.BaseTest - Response status code: 200
+2026-09-04 00:57:03 INFO  base.BaseTest - Response body: [
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+            }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+                "lat": "29.4572",
+                "lng": "-164.2990"
+            }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+                "lat": "-31.8129",
+                "lng": "62.5342"
+            }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+                "lat": "-71.4197",
+                "lng": "71.7478"
+            }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+                "lat": "24.8918",
+                "lng": "21.8984"
+            }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+                "lat": "-14.3990",
+                "lng": "-120.7677"
+            }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+                "lat": "-38.2386",
+                "lng": "57.2232"
+            }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+        }
+    }
+]
+2026-09-04 00:57:03 INFO  base.BaseTest - Starting GET single user test
+2026-09-04 00:57:04 INFO  base.BaseTest - Status Code: 200
+2026-09-04 00:57:04 INFO  base.BaseTest - User name: Leanne Graham
+2026-09-04 00:57:04 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:57:04 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 00:57:06 INFO  base.BaseTest - Status Code: 201
+2026-09-04 00:57:06 INFO  base.BaseTest - Response: {
+    "title": "My First API Test",
+    "body": "This is a beginner friendly RestAssured test",
+    "userId": 1,
+    "id": 101
+}
+2026-09-04 00:57:06 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:57:06 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 00:57:06 INFO  base.BaseTest - Status Code: 200
+2026-09-04 00:57:06 INFO  base.BaseTest - Response body: {
+    
+}
+2026-09-04 00:57:06 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:57:06 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 00:57:07 INFO  base.BaseTest - Headers Test Status Code : 200
+2026-09-04 00:57:07 INFO  base.BaseTest - Response Headers         : Date=Thu, 03 Sep 2026 19:27:08 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-credentials=true
+Cache-Control=max-age=43200
+etag=W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+expires=-1
+nel={"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma=no-cache
+report-to={"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1788174166"}],"max_age":3600}
+reporting-endpoints=heroku-nel="https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1788174166"
+Server=cloudflare
+vary=Origin, Accept-Encoding
+via=2.0 heroku-router
+x-content-type-options=nosniff
+x-powered-by=Express
+x-ratelimit-limit=1000
+x-ratelimit-remaining=999
+x-ratelimit-reset=1788174220
+Age=1311
+cf-cache-status=HIT
+Content-Encoding=gzip
+CF-RAY=a357266b2ac9c4af-SIN
+alt-svc=h3=":443"; ma=86400
+2026-09-04 00:57:07 INFO  base.BaseTest - ===== HEADERS TEST COMPLETED =====
+2026-09-04 00:57:07 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 00:57:08 INFO  base.BaseTest - Path Param Status Code : 200
+2026-09-04 00:57:08 INFO  base.BaseTest - Path Param Response    : {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+        }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+    }
+}
+2026-09-04 00:57:08 INFO  base.BaseTest - Query Param Status Code : 200
+2026-09-04 00:57:08 INFO  base.BaseTest - Query Param Response    : [
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "id labore ex et quam laborum",
+        "email": "Eliseo@gardner.biz",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    },
+    {
+        "postId": 1,
+        "id": 2,
+        "name": "quo vero reiciendis velit similique earum",
+        "email": "Jayne_Kuhic@sydney.com",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+    },
+    {
+        "postId": 1,
+        "id": 3,
+        "name": "odio adipisci rerum aut animi",
+        "email": "Nikita@garfield.biz",
+        "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+    }
+]
+2026-09-04 00:57:08 INFO  base.BaseTest - ===== PARAMETERS TEST COMPLETED =====
+2026-09-04 00:57:09 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:57:09 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 00:57:09 INFO  base.BaseTest - Response status code: 200
+2026-09-04 00:57:09 INFO  base.BaseTest - Response body: [
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+            }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+                "lat": "29.4572",
+                "lng": "-164.2990"
+            }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+                "lat": "-31.8129",
+                "lng": "62.5342"
+            }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+                "lat": "-71.4197",
+                "lng": "71.7478"
+            }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+                "lat": "24.8918",
+                "lng": "21.8984"
+            }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+                "lat": "-14.3990",
+                "lng": "-120.7677"
+            }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+                "lat": "-38.2386",
+                "lng": "57.2232"
+            }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+        }
+    }
+]
+2026-09-04 00:57:09 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:57:09 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-04 00:57:11 INFO  base.BaseTest - Status Code: 201
+2026-09-04 00:57:11 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-04 00:57:11 INFO  base.BaseTest - Status Code: 201
+2026-09-04 00:57:11 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-04 00:57:12 INFO  base.BaseTest - Status Code: 201
+2026-09-04 00:57:12 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 00:57:14 INFO  base.BaseTest - Status Code: 201
+2026-09-04 00:57:14 INFO  base.BaseTest - Response: {
+    "title": "My First API Test",
+    "body": "This is a beginner friendly RestAssured test",
+    "userId": 1,
+    "id": 101
+}
+2026-09-04 00:57:14 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:57:15 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-04 00:57:16 INFO  base.BaseTest - Status: 201
+2026-09-04 00:57:16 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-04 00:57:17 INFO  base.BaseTest - Status: 201
+2026-09-04 00:57:17 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-04 00:57:18 INFO  base.BaseTest - Status: 201
+2026-09-04 00:57:18 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:57:18 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 00:57:19 INFO  base.BaseTest - Status Code: 200
+2026-09-04 00:57:19 INFO  base.BaseTest - Response body: {
+    
+}
+2026-09-04 00:57:19 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 00:57:19 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-04 00:57:20 INFO  base.BaseTest - Captured User ID   : 1
+2026-09-04 00:57:20 INFO  base.BaseTest - Captured User Name : Leanne Graham
+2026-09-04 00:57:20 INFO  base.BaseTest - Captured Email     : Sincere@april.biz
+2026-09-04 00:57:21 INFO  base.BaseTest - Chained POST Status Code : 201
+2026-09-04 00:57:21 INFO  base.BaseTest - Chained POST Response    : {
+    "title": "Post created by Leanne Graham",
+    "body": "This post is created using chaining. Email: Sincere@april.biz",
+    "userId": 1,
+    "id": 101
+}
+2026-09-04 00:57:21 INFO  base.BaseTest - ===== API CHAINING TEST COMPLETED =====
+2026-09-04 00:57:21 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-04 00:57:21 INFO  base.BaseTest - Basic Auth Status Code : 200
+2026-09-04 00:57:22 INFO  base.BaseTest - Bearer Token Status Code : 200
+2026-09-04 00:57:23 INFO  base.BaseTest - Preemptive Auth Status Code : 200
+2026-09-04 00:57:23 INFO  base.BaseTest - ===== AUTHENTICATION TEST COMPLETED =====
+2026-09-04 00:57:23 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 00:57:23 INFO  base.BaseTest - Headers Test Status Code : 200
+2026-09-04 00:57:23 INFO  base.BaseTest - Response Headers         : Date=Thu, 03 Sep 2026 19:27:23 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-credentials=true
+Cache-Control=max-age=43200
+etag=W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+expires=-1
+nel={"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma=no-cache
+report-to={"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1788174166"}],"max_age":3600}
+reporting-endpoints=heroku-nel="https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1788174166"
+Server=cloudflare
+vary=Origin, Accept-Encoding
+via=2.0 heroku-router
+x-content-type-options=nosniff
+x-powered-by=Express
+x-ratelimit-limit=1000
+x-ratelimit-remaining=999
+x-ratelimit-reset=1788174220
+Age=1327
+cf-cache-status=HIT
+Content-Encoding=gzip
+CF-RAY=a35726ceacbc7dca-SIN
+alt-svc=h3=":443"; ma=86400
+2026-09-04 00:57:23 INFO  base.BaseTest - ===== HEADERS TEST COMPLETED =====
+2026-09-04 00:57:23 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 00:57:24 INFO  base.BaseTest - Path Param Status Code : 200
+2026-09-04 00:57:24 INFO  base.BaseTest - Path Param Response    : {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+        }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+    }
+}
+2026-09-04 00:57:24 INFO  base.BaseTest - Query Param Status Code : 200
+2026-09-04 00:57:24 INFO  base.BaseTest - Query Param Response    : [
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "id labore ex et quam laborum",
+        "email": "Eliseo@gardner.biz",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    },
+    {
+        "postId": 1,
+        "id": 2,
+        "name": "quo vero reiciendis velit similique earum",
+        "email": "Jayne_Kuhic@sydney.com",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+    },
+    {
+        "postId": 1,
+        "id": 3,
+        "name": "odio adipisci rerum aut animi",
+        "email": "Nikita@garfield.biz",
+        "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+    }
+]
+2026-09-04 00:57:24 INFO  base.BaseTest - ===== PARAMETERS TEST COMPLETED =====
+2026-09-04 01:01:56 INFO  base.BaseTest - ======= [@BeforeSuite] Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-04 01:01:56 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 01:01:56 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 01:02:00 INFO  base.BaseTest - Response status code: 200
+2026-09-04 01:02:00 INFO  base.BaseTest - Response body: [
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+            }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+                "lat": "29.4572",
+                "lng": "-164.2990"
+            }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+                "lat": "-31.8129",
+                "lng": "62.5342"
+            }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+                "lat": "-71.4197",
+                "lng": "71.7478"
+            }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+                "lat": "24.8918",
+                "lng": "21.8984"
+            }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+                "lat": "-14.3990",
+                "lng": "-120.7677"
+            }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+                "lat": "-38.2386",
+                "lng": "57.2232"
+            }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+        }
+    }
+]
+2026-09-04 01:02:00 INFO  base.BaseTest - Starting GET single user test
+2026-09-04 01:02:01 INFO  base.BaseTest - Status Code: 200
+2026-09-04 01:02:01 INFO  base.BaseTest - User name: Leanne Graham
+2026-09-04 01:02:01 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 01:02:01 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-04 01:02:03 INFO  base.BaseTest - Status Code: 201
+2026-09-04 01:02:03 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-04 01:02:04 INFO  base.BaseTest - Status Code: 201
+2026-09-04 01:02:04 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-04 01:02:06 INFO  base.BaseTest - Status Code: 201
+2026-09-04 01:02:06 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 01:02:07 INFO  base.BaseTest - Status Code: 201
+2026-09-04 01:02:07 INFO  base.BaseTest - Response: {
+    "title": "My First API Test",
+    "body": "This is a beginner friendly RestAssured test",
+    "userId": 1,
+    "id": 101
+}
+2026-09-04 01:02:07 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 01:02:08 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-04 01:02:08 INFO  base.BaseTest - Status: 201
+2026-09-04 01:02:08 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-04 01:02:09 INFO  base.BaseTest - Status: 201
+2026-09-04 01:02:09 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-04 01:02:10 INFO  base.BaseTest - Status: 201
+2026-09-04 01:02:10 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 01:02:10 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 01:02:11 INFO  base.BaseTest - Status Code: 200
+2026-09-04 01:02:11 INFO  base.BaseTest - Response body: {
+    
+}
+2026-09-04 01:02:11 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 01:02:11 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-04 01:02:11 INFO  base.BaseTest - Captured User ID   : 1
+2026-09-04 01:02:11 INFO  base.BaseTest - Captured User Name : Leanne Graham
+2026-09-04 01:02:11 INFO  base.BaseTest - Captured Email     : Sincere@april.biz
+2026-09-04 01:02:13 INFO  base.BaseTest - Chained POST Status Code : 201
+2026-09-04 01:02:13 INFO  base.BaseTest - Chained POST Response    : {
+    "title": "Post created by Leanne Graham",
+    "body": "This post is created using chaining. Email: Sincere@april.biz",
+    "userId": 1,
+    "id": 101
+}
+2026-09-04 01:02:13 INFO  base.BaseTest - ===== API CHAINING TEST COMPLETED =====
+2026-09-04 01:02:13 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-04 01:02:13 INFO  base.BaseTest - Basic Auth Status Code : 200
+2026-09-04 01:02:14 INFO  base.BaseTest - Bearer Token Status Code : 200
+2026-09-04 01:02:15 INFO  base.BaseTest - Preemptive Auth Status Code : 200
+2026-09-04 01:02:15 INFO  base.BaseTest - ===== AUTHENTICATION TEST COMPLETED =====
+2026-09-04 01:02:15 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 01:02:15 INFO  base.BaseTest - Headers Test Status Code : 200
+2026-09-04 01:02:15 INFO  base.BaseTest - Response Headers         : Date=Thu, 03 Sep 2026 19:32:16 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-credentials=true
+Cache-Control=max-age=43200
+etag=W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+expires=-1
+nel={"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma=no-cache
+report-to={"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1788174166"}],"max_age":3600}
+reporting-endpoints=heroku-nel="https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1788174166"
+Server=cloudflare
+vary=Origin, Accept-Encoding
+via=2.0 heroku-router
+x-content-type-options=nosniff
+x-powered-by=Express
+x-ratelimit-limit=1000
+x-ratelimit-remaining=999
+x-ratelimit-reset=1788174220
+Age=1619
+cf-cache-status=HIT
+Content-Encoding=gzip
+CF-RAY=a3572df0dd863bdd-SIN
+alt-svc=h3=":443"; ma=86400
+2026-09-04 01:02:15 INFO  base.BaseTest - ===== HEADERS TEST COMPLETED =====
+2026-09-04 01:02:15 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 01:02:16 INFO  base.BaseTest - Path Param Status Code : 200
+2026-09-04 01:02:16 INFO  base.BaseTest - Path Param Response    : {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+        }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+    }
+}
+2026-09-04 01:02:16 INFO  base.BaseTest - Query Param Status Code : 200
+2026-09-04 01:02:16 INFO  base.BaseTest - Query Param Response    : [
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "id labore ex et quam laborum",
+        "email": "Eliseo@gardner.biz",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    },
+    {
+        "postId": 1,
+        "id": 2,
+        "name": "quo vero reiciendis velit similique earum",
+        "email": "Jayne_Kuhic@sydney.com",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+    },
+    {
+        "postId": 1,
+        "id": 3,
+        "name": "odio adipisci rerum aut animi",
+        "email": "Nikita@garfield.biz",
+        "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+    }
+]
+2026-09-04 01:02:16 INFO  base.BaseTest - ===== PARAMETERS TEST COMPLETED =====
+2026-09-04 01:26:26 INFO  base.BaseTest - ======= [@BeforeSuite] Base URI set to: https://jsonplaceholder.typicode.com =======
+2026-09-04 01:26:27 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 01:26:27 INFO  base.BaseTest - Starting GET all users test
+2026-09-04 01:26:30 INFO  base.BaseTest - Response status code: 200
+2026-09-04 01:26:30 INFO  base.BaseTest - Response body: [
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+            }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+                "lat": "29.4572",
+                "lng": "-164.2990"
+            }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+                "lat": "-31.8129",
+                "lng": "62.5342"
+            }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+                "lat": "-71.4197",
+                "lng": "71.7478"
+            }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+                "lat": "24.8918",
+                "lng": "21.8984"
+            }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+                "lat": "-14.3990",
+                "lng": "-120.7677"
+            }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+                "lat": "-38.2386",
+                "lng": "57.2232"
+            }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+        }
+    }
+]
+2026-09-04 01:26:30 INFO  base.BaseTest - Starting GET single user test
+2026-09-04 01:26:31 INFO  base.BaseTest - Status Code: 200
+2026-09-04 01:26:32 INFO  base.BaseTest - User name: Leanne Graham
+2026-09-04 01:26:32 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 01:26:32 INFO  base.BaseTest - Starting DataProvider POST test with title: Title One
+2026-09-04 01:26:33 INFO  base.BaseTest - Status Code: 201
+2026-09-04 01:26:33 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Two
+2026-09-04 01:26:34 INFO  base.BaseTest - Status Code: 201
+2026-09-04 01:26:34 INFO  base.BaseTest - Starting DataProvider POST test with title: Title Three
+2026-09-04 01:26:35 INFO  base.BaseTest - Status Code: 201
+2026-09-04 01:26:35 INFO  base.BaseTest - Starting POST with hardcoded data
+2026-09-04 01:26:36 INFO  base.BaseTest - Status Code: 201
+2026-09-04 01:26:36 INFO  base.BaseTest - Response: {
+    "title": "My First API Test",
+    "body": "This is a beginner friendly RestAssured test",
+    "userId": 1,
+    "id": 101
+}
+2026-09-04 01:26:36 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 01:26:37 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 1
+2026-09-04 01:26:38 INFO  base.BaseTest - Status: 201
+2026-09-04 01:26:38 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 2
+2026-09-04 01:26:39 INFO  base.BaseTest - Status: 201
+2026-09-04 01:26:39 INFO  base.BaseTest - Excel Data Driven POST - Title: Excel Title 3
+2026-09-04 01:26:40 INFO  base.BaseTest - Status: 201
+2026-09-04 01:26:40 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 01:26:40 INFO  base.BaseTest - Starting DELETE request test
+2026-09-04 01:26:41 INFO  base.BaseTest - Status Code: 200
+2026-09-04 01:26:41 INFO  base.BaseTest - Response body: {
+    
+}
+2026-09-04 01:26:41 INFO  base.BaseTest - ======= [@BeforeClass] Base URI = https://jsonplaceholder.typicode.com =======
+2026-09-04 01:26:41 INFO  base.BaseTest - ===== API CHAINING TEST STARTED =====
+2026-09-04 01:26:42 INFO  base.BaseTest - Captured User ID   : 1
+2026-09-04 01:26:42 INFO  base.BaseTest - Captured User Name : Leanne Graham
+2026-09-04 01:26:42 INFO  base.BaseTest - Captured Email     : Sincere@april.biz
+2026-09-04 01:26:43 INFO  base.BaseTest - Chained POST Status Code : 201
+2026-09-04 01:26:43 INFO  base.BaseTest - Chained POST Response    : {
+    "title": "Post created by Leanne Graham",
+    "body": "This post is created using chaining. Email: Sincere@april.biz",
+    "userId": 1,
+    "id": 101
+}
+2026-09-04 01:26:43 INFO  base.BaseTest - ===== API CHAINING TEST COMPLETED =====
+2026-09-04 01:26:43 INFO  base.BaseTest - ===== AUTHENTICATION TEST STARTED =====
+2026-09-04 01:26:43 INFO  base.BaseTest - Basic Auth Status Code : 200
+2026-09-04 01:26:44 INFO  base.BaseTest - Bearer Token Status Code : 200
+2026-09-04 01:26:45 INFO  base.BaseTest - Preemptive Auth Status Code : 200
+2026-09-04 01:26:45 INFO  base.BaseTest - ===== AUTHENTICATION TEST COMPLETED =====
+2026-09-04 01:26:45 INFO  base.BaseTest - ===== HEADERS TEST STARTED =====
+2026-09-04 01:26:45 INFO  base.BaseTest - Headers Test Status Code : 200
+2026-09-04 01:26:45 INFO  base.BaseTest - Response Headers         : Date=Thu, 03 Sep 2026 19:56:46 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-credentials=true
+Cache-Control=max-age=43200
+etag=W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+expires=-1
+nel={"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+pragma=no-cache
+report-to={"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1788174166"}],"max_age":3600}
+reporting-endpoints=heroku-nel="https://nel.heroku.com/reports?s=Ve%2BvVwl8w6pBvn%2F7gqwAtzwpG%2FCXLF1hau00PpuPLXw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1788174166"
+Server=cloudflare
+vary=Origin, Accept-Encoding
+via=2.0 heroku-router
+x-content-type-options=nosniff
+x-powered-by=Express
+x-ratelimit-limit=1000
+x-ratelimit-remaining=999
+x-ratelimit-reset=1788174220
+Age=3089
+cf-cache-status=HIT
+Content-Encoding=gzip
+CF-RAY=a35751d4ade4eba1-SIN
+alt-svc=h3=":443"; ma=86400
+2026-09-04 01:26:45 INFO  base.BaseTest - ===== HEADERS TEST COMPLETED =====
+2026-09-04 01:26:45 INFO  base.BaseTest - ===== PARAMETERS TEST STARTED =====
+2026-09-04 01:26:46 INFO  base.BaseTest - Path Param Status Code : 200
+2026-09-04 01:26:46 INFO  base.BaseTest - Path Param Response    : {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+        }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+    }
+}
+2026-09-04 01:26:47 INFO  base.BaseTest - Query Param Status Code : 200
+2026-09-04 01:26:47 INFO  base.BaseTest - Query Param Response    : [
+    {
+        "postId": 1,
+        "id": 1,
+        "name": "id labore ex et quam laborum",
+        "email": "Eliseo@gardner.biz",
+        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    },
+    {
+        "postId": 1,
+        "id": 2,
+        "name": "quo vero reiciendis velit similique earum",
+        "email": "Jayne_Kuhic@sydney.com",
+        "body": "est natus enim nihil est dolore omnis voluptatem numquam\net omnis occaecati quod ullam at\nvoluptatem error expedita pariatur\nnihil sint nostrum voluptatem reiciendis et"
+    },
+    {
+        "postId": 1,
+        "id": 3,
+        "name": "odio adipisci rerum aut animi",
+        "email": "Nikita@garfield.biz",
+        "body": "quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione"
+    }
+]
+2026-09-04 01:26:47 INFO  base.BaseTest - ===== PARAMETERS TEST COMPLETED =====
